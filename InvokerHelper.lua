@@ -1,6 +1,6 @@
 local invoker = {}
 
-invoker.optionEnable = Menu.AddOption({ "Hero Specific","Invoker", "Helper"}, "On/Off", "Enabled/ Disabled ?")
+invoker.optionEnable = Menu.AddOption({ "Hero Specific","Invoker", "Helper"}, "On/Off", "Enabled/Disabled ?")
 invoker.optionFullQuas = Menu.AddKeyOption({ "Hero Specific", "Invoker", "Helper"}, "Full Quas", Enum.ButtonCode.KEY_1)
 invoker.optionFullWex = Menu.AddKeyOption({ "Hero Specific", "Invoker", "Helper"}, "Full Wex", Enum.ButtonCode.KEY_2)
 invoker.optionFullExort = Menu.AddKeyOption({ "Hero Specific", "Invoker", "Helper"}, "Full Exort", Enum.ButtonCode.KEY_3)
